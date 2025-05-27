@@ -1,0 +1,18 @@
+{
+  "name": "mysql-docker",
+  "version": "1.0.0",
+  "description": "El proceso de instalar y configurar mysql no es demasiado complicado, pero puede ser delicado, con este proyecto puedes saltarte todo el proceso de instalación y configuración, ya que lo lanzamos en un contenedor de docker.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {}
+}
